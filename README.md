@@ -1,6 +1,10 @@
 # GradientTextView
 
-A UI Library providing `GradientTextView` which can be used as a normal TextView.
+A UILibrary providing `GradientTextView` which can be used as a normal TextView.
+
+
+
+![Screenshot](https://static.birdcommunication.in/wp-content/uploads/2019/12/08202029/image10.png)
 
 
 ## Installation
