@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <in.birdcommunication.gradienttextview.GradientTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey I am Heading 1"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <in.birdcommunication.gradienttextview.GradientTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Hey I am Heading 2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/aladin"
+        app:gt_direction="right"
+        app:gt_end_color="@color/endclr"
+        app:gt_start_color="@color/startclr"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <in.birdcommunication.gradienttextview.GradientTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Hey I am Heading 3"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/abril_fatface"
+        app:gt_direction="right"
+        app:gt_end_color="#fccf31"
+        app:gt_start_color="#f55555"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <in.birdcommunication.gradienttextview.GradientTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Hey I am Heading 4"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/amatica_sc_bold"
+        app:gt_direction="right"
+        app:gt_end_color="#93278f"
+        app:gt_start_color="#00a99d"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</LinearLayout>
